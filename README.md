@@ -15,6 +15,7 @@ This project uses Terraform to provision a basic AWS EC2 instance running Nginx 
  - A valid public SSH key named `terra-key-ec2.pub` in the root directory
 
 ### File Structure
+<pre>
 .
 ├── ec2.tf               # Main Terraform resources
 ├── variables.tf         # Input variables
@@ -24,7 +25,8 @@ This project uses Terraform to provision a basic AWS EC2 instance running Nginx 
 ├── simple_web.sh        # User data script to install Nginx
 ├── .gitignore           # Ignore sensitive/state files
 └── README.md            # You're reading it
+</pre>
 
-###Notes
+### Notes
  - This is for learning/demo purposes, not hardened for production use.
  - The security group allows SSH from anywhere (0.0.0.0/0). Avoid that in real projects.
