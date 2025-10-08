@@ -11,4 +11,4 @@ sudo systemctl start nginx
 sudo systemctl enable nginx
 
 # Set up a basic web page
-echo "<h1>🚀 Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
+echo "<h1>Deployed via Terraform</h1>" | sudo tee /var/www/html/index.html
